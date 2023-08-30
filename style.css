@@ -39,17 +39,15 @@ body {
 main {
   margin-top: 2rem;
   padding: 0 2rem;
-  transition: 0.5s;
+  transition: 2s;
 }
 main.animation {
   transform: translateY(5rem);
-  visibility: hidden;
-  animation-delay: 2s;
+  opacity: 0;
 }
 main.show {
   transform: translateY(0);
-  visibility: visible;
-  animation-delay: 2s;
+  opacity: 1;
 }
 h1 {
   font-size: 4rem;
